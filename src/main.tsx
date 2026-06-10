@@ -29,6 +29,8 @@ ReactDOM.createRoot(
   <React.StrictMode>
     <ClerkProvider
       publishableKey={clerkPubKey}
+      signInUrl="/sign-in"
+      signUpUrl="/sign-up"
     >
       <ConvexProvider
         client={convex}

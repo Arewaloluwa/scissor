@@ -39,7 +39,7 @@ export default function ShortenForm() {
     e.preventDefault();
 
     if (!user) {
-      navigate("/signin");
+      navigate("/sign-in");
       return;
     }
 

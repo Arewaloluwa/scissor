@@ -14,12 +14,12 @@ export default function App() {
         <Route path="/" element={<Home />} />
 
         <Route
-          path="/sign-up/*"
+          path="/sign-up"
           element={<SignUpPage />}
         />
 
         <Route
-          path="/sign-in/*"
+          path="/sign-in"
           element={<SignInPage />}
         />
 
