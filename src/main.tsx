@@ -3,13 +3,9 @@ import ReactDOM from "react-dom/client";
 
 import { ClerkProvider } from "@clerk/clerk-react";
 
-import {
-  ConvexReactClient,
-} from "convex/react";
+import { ConvexReactClient,} from "convex/react";
 
-import {
-  ConvexProvider,
-} from "convex/react";
+import { ConvexProvider, } from "convex/react";
 
 import App from "./App";
 
