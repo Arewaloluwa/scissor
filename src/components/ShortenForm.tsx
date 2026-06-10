@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import { useUser } from "@clerk/clerk-react";
 
+import { useNavigate } from "react-router-dom";
+
 import { useMutation } from "convex/react";
 
 import { api } from "../../convex/_generated/api";
@@ -14,6 +16,8 @@ import QRCodeDisplay from "./QRCodeDisplay";
 
 export default function ShortenForm() {
   const { user } = useUser();
+
+  const navigate = useNavigate();
 
   const [expiresAt, setExpiresAt] = useState("");
 
@@ -35,7 +39,7 @@ export default function ShortenForm() {
     e.preventDefault();
 
     if (!user) {
-      alert("Please sign in");
+      navigate("/signin");
       return;
     }
 

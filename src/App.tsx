@@ -14,8 +14,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
 
         <Route
-          path="/dashboard"
-          element={<Dashboard />}
+          path="/sign-up/*"
+          element={<SignUpPage />}
         />
 
         <Route
@@ -24,8 +24,8 @@ export default function App() {
         />
 
         <Route
-          path="/sign-up/*"
-          element={<SignUpPage />}
+          path="/dashboard"
+          element={<Dashboard />}
         />
 
         <Route
