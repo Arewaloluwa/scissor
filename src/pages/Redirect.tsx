@@ -5,15 +5,15 @@ import { api } from "../../convex/_generated/api";
 import { UAParser } from "ua-parser-js";
 
 export default function Redirect() {
-  const { slug } = useParams();
 
-  const navigate =
-    useNavigate();
+  const navigate = useNavigate();
 
-  const trackClick =
-    useMutation(
+  const trackClick = useMutation(
       api.clicks.trackClick
     );
+
+  const { slug } = useParams();
+    console.log("slug =", slug);
 
   const link = useQuery(
     api.links.getLinkBySlug,

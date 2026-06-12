@@ -15,9 +15,9 @@ import { generateSlug } from "../utils/generateSlug";
 import QRCodeDisplay from "./QRCodeDisplay";
 
 export default function ShortenForm() {
-  const { user } = useUser();
-
   const navigate = useNavigate();
+
+  const { user } = useUser();
 
   const [expiresAt, setExpiresAt] = useState("");
 

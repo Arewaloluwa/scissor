@@ -3,7 +3,6 @@ name: clerk-orgs
 description: Clerk Organizations for B2B SaaS - create multi-tenant apps with org
   switching, role-based access, verified domains, and enterprise SSO. Use for team
   workspaces, RBAC, org-based routing, member management.
-allowed-tools: WebFetch
 license: MIT
 compatibility: Requires NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY. Organizations must be enabled in Clerk Dashboard → Organizations. Membership mode (required vs optional) must match the B2B vs B2C + B2B coexistence story of your app.
 metadata:
