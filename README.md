@@ -9,9 +9,9 @@ Frontend - React + Typecript
 
 Backend - Convex
 
-Autentication -Clerk + Convex Integration
+Autentication - Clerk + Convex Integration
 
-QR code- qrcode.react
+QR code - qrcode.react
 
 Redirects - Convex HTTP Actions
 
