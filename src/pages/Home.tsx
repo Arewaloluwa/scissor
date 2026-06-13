@@ -1,9 +1,5 @@
-export default function Home() {
-  console.log("HOME PAGE LOADED");
-
+export default function App() {
   return (
-    <div>
-      <h1>HOME PAGE LOADED</h1>
-    </div>
+    <h1>APP IS RENDERING</h1>
   );
 }
